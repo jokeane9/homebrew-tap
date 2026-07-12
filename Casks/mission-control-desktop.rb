@@ -11,7 +11,7 @@
 #     shasum -a 256 dist/MissionControl-<version>.dmg
 cask "mission-control-desktop" do
   version "1.0.0"
-  sha256 :no_check # replace with the real DMG checksum once a release is cut
+  sha256 "2974a833bd17f80fd907a5820f7589c5c895ad60ef0900f90fdd46b8b73a1035"
 
   url "https://github.com/jokeane9/mission-control-desktop/releases/download/v#{version}/MissionControl-#{version}.dmg"
   name "Mission Control"
