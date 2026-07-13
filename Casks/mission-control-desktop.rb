@@ -10,8 +10,8 @@
 # Update `version` and `sha256` on each release. Get the checksum with:
 #     shasum -a 256 dist/MissionControl-<version>.dmg
 cask "mission-control-desktop" do
-  version "1.2.0"
-  sha256 "fccd47d20f9f17b3604a189be0293d153652f9139e90682ee9f4da49b21c5208"
+  version "1.2.1"
+  sha256 "ad4661338bcc6a5ac27f6f5670fab15bb357de076fdcc57f737c4a9c0a769282"
 
   url "https://github.com/jokeane9/mission-control-desktop/releases/download/v#{version}/MissionControl-#{version}.dmg"
   name "Mission Control"
