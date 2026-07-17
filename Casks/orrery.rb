@@ -21,8 +21,8 @@
 # Checksum by hand, if ever needed:
 #     shasum -a 256 dist/Orrery-<version>.dmg
 cask "orrery" do
-  version "1.7.0"
-  sha256 "ae05585ab86145496400e72e526ec4e04027747b1f8a86af2f66423d68ef6bfc"
+  version "2.0.0"
+  sha256 "c71032de535e756191587a66e54c3e44280d4504be6c078cfb4f8cbd0d460e24"
 
   url "https://github.com/jokeane9/orrery/releases/download/v#{version}/Orrery-#{version}.dmg"
   name "Orrery"
